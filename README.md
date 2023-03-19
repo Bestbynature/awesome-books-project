@@ -112,15 +112,15 @@ Install this project with:
     <li>create a .gitignore file and add 'node_modules' to it</li>
     <li>run 'npm init -y'</li>
     <li>run 'npm install --save-dev hint@7.x'</li>
-    <li>Copy [.hintrc](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.hintrc) to the root directory of your project.</li>
+    <li>Copy [hintrc](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.hintrc) to the root directory of your project.</li>
     <li>run 'npx hint .'</li>
     <li>Fix validation errors.</li>
     <li>run 'npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x'</li>
-    <li>Copy [.stylelintrc.json](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.stylelintrc.json) to the root directory of your project.</li>
+    <li>Copy [stylelintrc.json](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.stylelintrc.json) to the root directory of your project.</li>
     <li>Run 'npx stylelint "**/*.{css,scss}"'</li>
     <li>fix linter errors</li>
     <li>run 'npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x'</li>
-    <li>Copy [.eslintrc.json](https://github.com/microverseinc/linters-config/tree/master/html-css-js)</li>
+    <li>Copy [eslintrc.json](https://github.com/microverseinc/linters-config/tree/master/html-css-js)</li>
     <li>Run npx eslint . on the root of your directory of your project</li>
     <li>Fix linter errors</>
 
