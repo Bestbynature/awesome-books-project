@@ -162,6 +162,13 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/Dammybest)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/damilare-ismaila-4a5a8b30/)
 
+**Author2**
+- GitHub: [Abdi Bekele](https://github.com/Lul-Abdifan)
+- Twitter: [@twitterhandle](https://twitter.com/Dammybest)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/damilare-ismaila-4a5a8b30/)
+- e-mail: [tasanbannu@gmail.com](mailto:tasanbannu@gmail.com)
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
