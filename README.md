@@ -164,8 +164,7 @@ You can deploy this project using:
 
 **Author2**
 - GitHub: [Abdi Bekele](https://github.com/Lul-Abdifan)
-- Twitter: [@twitterhandle](https://twitter.com/Dammybest)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/damilare-ismaila-4a5a8b30/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdi-bekele-a63860254/)
 - e-mail: [tasanbannu@gmail.com](mailto:tasanbannu@gmail.com)
 
 
