@@ -17,12 +17,13 @@ let books = [
     }
 ]
 
+
 function saveToStorage(){
-    localStorage.setItem('books', JSON.stringify(books));
+    localStorage.setItem('collections', JSON.stringify(books));
 }
 
 function getBooksFromStorage() {
-    const storedBooks = localStorage.getItem('books');
+    const storedBooks = localStorage.getItem('collections');
     if (storedBooks) {
       books = JSON.parse(storedBooks);
     }
@@ -38,7 +39,13 @@ addButton.addEventListener("click", (e)=>{
     else {
         e.preventDefault();
 
-        const id = books.length
+        let id = books.length
+       books.map(c=>{ 
+        while(c.id === id){
+            id++
+        }
+    })
+
         const title = newTitle.value
         const author = newAuthor.value
 
@@ -86,10 +93,10 @@ const displayBooks = () => {
         })
     })
 }
-displayBooks()
 
  // To Call the function when the page loads
  window.onload = () => {
     getBooksFromStorage();
     displayBooks();
+    saveToStorage();
   }
