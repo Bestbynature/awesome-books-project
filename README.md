@@ -204,7 +204,7 @@ If you like this project, kindly drop a star for me.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to use this medium to appreciate [My coding partner](https://github.com/adagio07) for brainstormig.
+I would like to use this medium to appreciate [My coding partner](https://github.com/Lul-Abdifan) for brainstorming together with me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
