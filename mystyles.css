@@ -1,10 +1,87 @@
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 form {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  padding: 10px;
+}
+
+input {
+  padding: 15px;
+  margin: 10px auto;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+#add {
+  align-self: flex-end;
+  width: 40%;
+  padding: 10px;
+  box-shadow: 3px 3px 3px 3px;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  transition: all 0.5s ease-in-out;
+}
+
+input:focus,
+#add:focus {
+  box-shadow: 0 0 3px 3px;
+}
+
+#add:hover {
+  filter: invert(100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(-45deg, rgba(241, 102, 102, 0.9), rgba(165, 226, 22, 0.9));
+}
+
+.shelve {
+  width: 75%;
+  padding: 10px;
+  background: linear-gradient(45deg, rgba(241, 102, 102, 0.9), rgba(165, 226, 22, 0.9));
+  margin-top: 2rem;
+}
+
+.book-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.book-div:hover {
+  box-shadow: 3px 3px 3px 3px;
+}
+
+.book-div h2 {
+  font-size: 1.3rem;
+}
+
+.remove {
+  padding: 10px;
+  box-shadow: 3px 3px 3px 3px;
+  font-size: 1.3rem;
+  height: 2.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.remove:hover {
+  filter: invert(100%);
+}
+
+#short {
+  width: 20%;
+  margin-bottom: 2rem;
+  border: 2px solid black;
 }
