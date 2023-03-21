@@ -4,8 +4,9 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
 }
-.header-title{
-  padding-top:30px;
+
+.header-title {
+  padding-top: 30px;
 }
 
 form {
