@@ -11,9 +11,10 @@ class Library {
     this.newAuthor = document.querySelector('form #author');
     this.addButton = document.querySelector('#add');
     this.shelve = document.querySelector('.shelve');
-
     this.addBook = this.addBook.bind(this);
     this.displayBooks = this.displayBooks.bind(this);
+    // this.navigationBar = this.navigationBar.bind(this);
+    this.date = new Date();
   }
 
   // moving the  saveToStorage and getBooksFromStorage functions into the Library class
@@ -61,6 +62,7 @@ class Library {
         this.saveToStorage();
       });
     });
+    this.theDate();
   }
 
   addBook(e) {
@@ -88,8 +90,45 @@ class Library {
     this.getBooksFromStorage();
     this.displayBooks();
     this.addButton.addEventListener('click', this.addBook);
+    this.navigationBar();
+  }
+
+  theDate() {
+    const dateDiv = document.querySelector('#date');
+    dateDiv.innerHTML = this.date;
+  }
+
+  navigationBar() {
+    const { shelve } = this;
+    const addBook = document.querySelector('#add-book');
+    const contact = document.querySelector('.contact');
+    const short = document.querySelector('.short');
+
+    const links = document.querySelectorAll('header nav ul li');
+    links.forEach((link, index) => {
+      link.onclick = function linkCaller() {
+        if (index === 0) {
+          shelve.style.display = 'block';
+          addBook.style.display = 'none';
+          contact.style.display = 'none';
+          short.style.display = 'none';
+        } else if (index === 1) {
+          shelve.style.display = 'none';
+          addBook.style.display = 'block';
+          contact.style.display = 'none';
+          short.style.display = 'none';
+        } else {
+          shelve.style.display = 'none';
+          addBook.style.display = 'none';
+          contact.style.display = 'block';
+          short.style.display = 'none';
+        }
+      };
+    });
   }
 }
 
 const myLibrary = new Library();
 myLibrary.initialize();
+
+// navigationBar()
