@@ -112,16 +112,25 @@ class Library {
           addBook.style.display = 'none';
           contact.style.display = 'none';
           short.style.display = 'none';
+          links[0].style.backgroundColor = 'rgba(241, 102, 102, 0.9)';
+          links[1].style.backgroundColor = 'rgba(241, 102, 102, 0.1)';
+          links[2].style.backgroundColor = 'rgba(241, 102, 102, 0.1)';
         } else if (index === 1) {
           shelve.style.display = 'none';
           addBook.style.display = 'block';
           contact.style.display = 'none';
           short.style.display = 'none';
+          links[1].style.backgroundColor = 'rgba(241, 102, 102, 0.9)';
+          links[0].style.backgroundColor = 'rgba(241, 102, 102, 0.1)';
+          links[2].style.backgroundColor = 'rgba(241, 102, 102, 0.1)';
         } else {
           shelve.style.display = 'none';
           addBook.style.display = 'none';
           contact.style.display = 'block';
           short.style.display = 'none';
+          links[2].style.backgroundColor = 'rgba(241, 102, 102, 0.9)';
+          links[0].style.backgroundColor = 'rgba(241, 102, 102, 0.1)';
+          links[1].style.backgroundColor = 'rgba(241, 102, 102, 0.1)';
         }
       };
     });
@@ -130,5 +139,3 @@ class Library {
 
 const myLibrary = new Library();
 myLibrary.initialize();
-
-// navigationBar()
