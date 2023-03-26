@@ -139,3 +139,5 @@ class Library {
 
 const myLibrary = new Library();
 myLibrary.initialize();
+
+setInterval(Library.theDate, 1000)
